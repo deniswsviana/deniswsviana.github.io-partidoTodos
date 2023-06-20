@@ -100,10 +100,6 @@ h2 {
   border-radius: 4px;
 }
 /* sobre candidata */
-.sobre-bg {
-  /* margin-bottom: 40px; */
-  /* padding: 120px; */
-}
 .sobre {
   background: url("../img/content-bg.png") no-repeat;
   background-position: center left;
@@ -202,7 +198,7 @@ h2 {
   background-size: cover;
 }
 .footer {
-  font-size: 1.5vw;
+  font-size: 1vw;
   text-align: center;
   text-transform: uppercase;
   padding: 40px;
