@@ -67,7 +67,7 @@ h2 {
 }
 /* content */
 .candidata-bg {
-  background: url("/img/1080.png") no-repeat;
+  background: url("../img/1080.png") no-repeat;
   background-size: cover;
 }
 .candidata {
