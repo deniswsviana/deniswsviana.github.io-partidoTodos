@@ -202,6 +202,7 @@ h2 {
   background-size: cover;
 }
 .footer {
+  font-size: 1.5vw;
   text-align: center;
   text-transform: uppercase;
   padding: 40px;
