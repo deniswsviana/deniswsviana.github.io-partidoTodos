@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+/* reset */
+h1,
+h2,
+h3,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #670e14;
+  text-decoration: none;
+}
+/* global */
+img {
+  width: 100%;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Spectral", serif;
+  color: #670e14;
+}
+h2{
+  text-transform: uppercase;
+}
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+/* header */
+.header-menu {
+  padding: 20px;
+  border-bottom: 0.1px solid #4b821c;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu a img {
+  width: 30px;
+}
+.menu {
+  color: #670e14;
+  display: flex;
+  gap: 1.25rem;
+  text-transform: uppercase;
+}
+.menu a {
+  font-weight: 800;
+  padding: 10px;
+}
+.representante {
+  border-radius: 4px;
+  background-color: #ffb185;
+  color: white;
+}
+/* content */
+.candidata-bg {
+  background: url("/img/1080.png") no-repeat;
+  background-size: cover;
+}
+.candidata {
+  display: flex;
+  /* gap: 80px; */
+  max-width: 1400px;
+}
+
+.candidata-descricao {
+  color: white;
+  margin-left: 80px;
+  align-self: center;
+  font-weight: 800;
+}
+.candidata-descricao h3 {
+  font-size: 3vw;
+  margin-bottom: 40px;
+}
+.candidata-descricao h1 {
+  text-transform: uppercase;
+  font-size: 8vw;
+  line-height: 8vw;
+  margin-bottom: 80px;
+}
+.candidata-descricao a {
+  background-color: #670e14;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 4px;
+}
+/* sobre candidata */
+.sobre-bg {
+  /* margin-bottom: 40px; */
+  /* padding: 120px; */
+}
+.sobre {
+  background: url("/img/content-bg.png") no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+.sobre-bg h2 {
+  margin-top: 80px;
+  font-size: 2vw;
+  text-align: center;
+  
+}
+.sobre-dados {
+  padding: 100px;
+  position: relative;
+}
+.sobre-dados h3 {
+  margin-top: 20px;
+  font-size: 2vw;
+}
+.sobre-dados h3 + h3 {
+  margin-bottom: 40px;
+}
+.sobre-dados p {
+  font-size: 1.5vw;
+  line-height: 1.875vw;
+}
+.sobre-dados p:last-child {
+  padding-bottom: 40px;
+}
+.sobre-dados span {
+  position: absolute;
+  font-size: 1vw;
+  right: 100px;
+  bottom: 180px;
+}
+/* propostas */
+.propostas-bg {
+  background: url("/img/content-bg1.png") no-repeat;
+  background-position: center right;
+  background-size: contain;
+  position: relative;
+}
+.propostas-bg h2 {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  font-size: 2vw;
+}
+.propostas-dados {
+  /* margin-top: 80px; */
+  padding: 100px;
+}
+.propostas-dados p {
+  font-size: 1.5vw;
+}
+/* jingle candidata */
+.jingle-bg  {
+  background: url("/img/content-bg.png") no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+.jingle{
+  margin-top: 80px;
+  padding: 100px;
+
+}
+.jingle h2{
+  text-align: end;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 2vw;
+}
+.jingle p {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+.jingle p:last-child{
+  padding-bottom: 40px;
+}
+/* representantes */
+.representantes{
+  padding: 100px;
+}
+.representantes h2{
+  font-size: 2vw;
+  margin-bottom: 40px;
+}
+.representantes p{
+  font-size: 1.5vw;
+}
+.representantes span{
+  line-height: 2.7vw;
+  font-weight: 600;
+}
+/* footer */
+.footer-bg {
+  background: url("/img/content-bg1.png") no-repeat;
+  background-position: right;
+  background-size:cover;
+}
+.footer{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px;
+}
