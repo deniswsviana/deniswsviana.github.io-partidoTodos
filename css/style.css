@@ -105,7 +105,7 @@ h2 {
   /* padding: 120px; */
 }
 .sobre {
-  background: url("/img/content-bg.png") no-repeat;
+  background: url("../img/content-bg.png") no-repeat;
   background-position: center left;
   background-size: contain;
 }
@@ -140,7 +140,7 @@ h2 {
 }
 /* propostas */
 .propostas-bg {
-  background: url("/img/content-bg1.png") no-repeat;
+  background: url("../img/content-bg1.png") no-repeat;
   background-position: center right;
   background-size: contain;
   position: relative;
@@ -159,7 +159,7 @@ h2 {
 }
 /* jingle candidata */
 .jingle-bg {
-  background: url("/img/content-bg.png") no-repeat;
+  background: url("../img/content-bg.png") no-repeat;
   background-position: center left;
   background-size: contain;
 }
@@ -197,7 +197,7 @@ h2 {
 }
 /* footer */
 .footer-bg {
-  background: url("/img/content-bg1.png") no-repeat;
+  background: url("../img/content-bg1.png") no-repeat;
   background-position: right;
   background-size: cover;
 }
