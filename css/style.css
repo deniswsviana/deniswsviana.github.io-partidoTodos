@@ -23,14 +23,14 @@ a {
 img {
   width: 100%;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Spectral", serif;
   color: #670e14;
 }
-h2{
+h2 {
   text-transform: uppercase;
 }
 .container {
@@ -113,7 +113,6 @@ h2{
   margin-top: 80px;
   font-size: 2vw;
   text-align: center;
-  
 }
 .sobre-dados {
   padding: 100px;
@@ -159,17 +158,16 @@ h2{
   font-size: 1.5vw;
 }
 /* jingle candidata */
-.jingle-bg  {
+.jingle-bg {
   background: url("/img/content-bg.png") no-repeat;
   background-position: center left;
   background-size: contain;
 }
-.jingle{
+.jingle {
   margin-top: 80px;
   padding: 100px;
-
 }
-.jingle h2{
+.jingle h2 {
   text-align: end;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -179,21 +177,21 @@ h2{
   font-size: 1.5vw;
   line-height: 2.5vw;
 }
-.jingle p:last-child{
+.jingle p:last-child {
   padding-bottom: 40px;
 }
 /* representantes */
-.representantes{
+.representantes {
   padding: 100px;
 }
-.representantes h2{
+.representantes h2 {
   font-size: 2vw;
   margin-bottom: 40px;
 }
-.representantes p{
+.representantes p {
   font-size: 1.5vw;
 }
-.representantes span{
+.representantes span {
   line-height: 2.7vw;
   font-weight: 600;
 }
@@ -201,9 +199,9 @@ h2{
 .footer-bg {
   background: url("/img/content-bg1.png") no-repeat;
   background-position: right;
-  background-size:cover;
+  background-size: cover;
 }
-.footer{
+.footer {
   text-align: center;
   text-transform: uppercase;
   padding: 40px;
